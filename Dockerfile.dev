@@ -3,7 +3,7 @@ FROM node:alpine
 WORKDIR /usr/app
 
 COPY package.json /usr/app
-RUN npm install
+RUN npm install --save-dev @babel/plugin-proposal-private-property-in-object
 
 COPY . /usr/app
 
