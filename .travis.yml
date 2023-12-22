@@ -1,9 +1,5 @@
 sudo: required
 
-language: node_js
-node_js:
-    - "stable"
-
 services:
   - docker
 
@@ -22,6 +18,6 @@ deploy:
   bucket_path: "docker-react"
   on:
     branch: master
-  access_key_id: $AWS_ACCESS_KEY
+  access_key_id: "AKIAYKV5LDISEM6KPMGX"
   secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+    secure: "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"
